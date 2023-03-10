@@ -1,0 +1,160 @@
+@import url(//db.onlinewebfonts.com/c/b1de76f2d448dcdf44d092114d6ba04a?family=Museo+Sans+700);
+
+@font-face {
+    font-family: "Museo";
+    src: url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.eot"); src: url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.woff") format("woff"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.svg#Museo Sans 700") format("svg");
+
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #d6d6d6;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Museo';
+  }
+
+  .nav-logo img {
+    width: 6%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+    font-family: 'Museo';
+  }
+
+  .nav-links li {
+    margin: 0 16px;
+  }
+
+  .nav-links a {
+    color: #484848;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover {
+    color: #d12228;
+  }
+
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .consoles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Museo';
+    font-size: 16px;
+    margin: 0px 642.484px 0px 642.469px;
+    padding: 32px;
+    white-space: nowrap;
+  }
+
+  .consoles span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #242424;
+    padding: 16px 24px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+
+  .consoles span:hover {
+    color: #d12228;
+  }
+
+  .consolefamily {
+    display: flex;
+justify-content: center;
+padding-bottom: 48px;
+padding-top: 48px;
+}
+
+.whichsystem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.whichsystem img {
+    position: inherit;
+}
+
+.compare {
+    font-family: 'Museo';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.comparebutton {
+    font-family: 'Museo';
+    display: flex;
+    background-color: #d12228;
+    border: none;
+    width: 119px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.oled {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.underoled {
+    display: flex;
+    width: 1100px;
+    height: 220px;
+    background-color: #d12228;
+    margin: auto;
+    align-self: flex-start;
+    margin-top: -5px;
+}
+
+.oled1 {
+    font-family: 'Museo';
+    font-size: 28px;
+    line-height: 1.35;
+    color:#fff;
+    font-weight: 700;
+}
+
+.oled2 {
+    font-family: 'Museo';
+    color:#fff
+}
+
+.oled3 {
+    font-family: 'Museo';
+    color: #fff;
+}
+
+.oled4 {
+    font-family: 'Museo';
+    color: #fff;
+}
